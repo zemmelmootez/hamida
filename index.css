@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 2px 15px
+}
+.header-links a{
+    font-weight: bold;
+   
+}
+.header-links{
+    background-color: yellow;
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+.header>a{
+    color: rgb(147, 147, 202);
+    background-color: #098468;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px 20px; 
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #1c2022;
+}
+.navbar a:first-child{
+    color: rgb(209, 66, 78);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 2vw 0;
+    flex-direction: column;
+    align-items: center;
+}
+.main input,.main select,.main button{
+    padding: 7px 2px;
+    border: 0;
+    width: 150px;
+}
+.main .filter{
+    background-color: rgba(216, 216, 216, 0.664);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    align-items: center;
+    
+}
+.filter select{
+    color: #1c2022;
+}
+.filter button{
+    background-color: #00ccb7;
+    margin-right: 10px;
+    color: white;
+}
+.image-container{
+    background-image: url("large.jpg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-image{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.text-image button{
+    background-color: #00ccb7;
+    color: white;
+    border-radius: 25px;
+    font-size: 17px;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    font-size: 14px;
+}
+.main-footer div{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.main-footer div:first-child{
+    background-color: rgb(228, 228, 34);
+}
+.main-footer div:nth-child(2)
+{
+    background-color: orange;
+}
+.anonce{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 14px;
+    align-items: center;
+}
+.anonce div{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 20px;
+    color: rgb(56, 56, 56);
+}
+
+.anonce button{
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid rgb(73, 23, 73);
+    color: rgb(73, 23, 73) ;
+}
+.anonce{
+    box-shadow: -1px 8px 20px #1c20220c;
+}
+.card{
+    width: 220px;
+    position: relative;
+}
+.card img{
+  
+}
+.info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.info{
+   
+   
+    display: flex;
+    gap: 10px;
+    font-weight: 900;
+ color: white;   
+ font-size: 20px;
+}
+
+.img{
+    background-image: url("©Emma\ Lee.webp");
+    width: 220px;
+    height: 200px;
+    background-size: cover;
+    
+}
+.content{
+   margin-top: -30px;
+   margin-left: 10px;
+   
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description span{
+    color: rgb(36, 145, 145);
+    font-weight: bold;
+    font-size: 14px;
+}
+.description p{
+    width: 80%;
+}
+.groupe-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+    width: 80%;
+}
+.content-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content-cards button{
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid rgb(73, 23, 73);
+    color: rgb(73, 23, 73) ;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.voyage-content{
+    display: flex;
+    justify-content: center;
+}
+.left img{
+    height: 240px;
+    width: 100%;
+}
+.left-top img{
+    width: 180px;
+    height: 140px;
+}
+.left-top{
+    display: flex;
+    gap: 2vw;
+}
+.left-top div div{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 5px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.left-top div div{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+   
+}
+#p2{
+    background-color: #098468;
+}
+#p1{
+    background-color: orangered;
+}
+.right{
+    background-image: url(©Emma\ Lee.webp);
+    height: auto;
+    width: 420px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.voyage-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#lefright{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.right p{
+    font-size: 30px;
+    color: white;
+    width: 80%;
+   text-align: center;
+}
+.right h1{
+    font-size: 50px;
+    color: white;
+}
+.right button{
+    background-color: rgb(249, 249, 73);
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.voyages{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-content{
+    width: fit-content;
+}
+.right-content{
+    width: 25%;
+}
+
+.voyagefooter{
+    display: flex;
+   
+   justify-content: center;
+   
+}
+.left-content{
+    background-color: mediumslateblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw 0vw;
+    gap: 2vw;
+}
+.left-content p{
+    padding: 0 20px;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    
+}
+.left-content p span{
+    color: white;
+font-weight: 800;
+font-size: 22px}
+.left-content button{
+    background-color: white;
+    border: 0;
+    border-radius: 25px;
+    padding: 10px 5px;
+    font-size: 12px;
+}
+.right-content{
+    background-image: url("large.jpg");
+    background-size: cover;
+    display: flex;
+    padding: 5px 10px;
+    color: white;
+}
+.step1{
+    display: flex;
+}
+.steps img{
+    width:50vw;
+    height: 650px;
+}
+.step1 div div div{
+    display: flex;
+    
+}
+.step1 div{
+    width:60%;
+    
+}
+.step1 div div{
+    padding: 2vw 1vw;
+}
+.contentstep{
+    display: flex;
+    flex-direction: column;
+   
+}
+.headstep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.step1 i{
+    background-color: orangered ;
+    padding: 8px 12px;
+    height: fit-content;
+    border-radius: 50%;
+    color: white !important;
+    font-size: 25px;
+    font-weight: 100;
+}
+.contentstep div{
+    font-size: 35px;
+    font-weight: bold;
+    width: 75%;
+    color: orangered;
+    display: flex;
+    align-items: center;
+
+}
+footer{
+    display: flex;
+    background-color: rgb(235, 235, 64);
+    padding: 1.5vw 0;
+    justify-content: center;
+    gap: 2vw;
+    align-items: center;
+}
+footer p{
+    font-size: 30px;
+}
+footer input{
+    padding: 8px ;
+}
+footer div{
+    display: flex;
+}
+footer button{
+    background-color: #00ccb7;
+    border: 0;
+    padding: 0 20px;
+    color: white;
+}
+.end{
+    display: flex;
+    padding: 2vw 20vw;
+   
+    gap: 5vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.endd{
+    display: flex;
+    background-color: mediumpurple;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.end a{
+    text-decoration: none;
+    color: white;
+}
+.end div{
+    display: flex;
+    flex-direction: column;
+}
+.end div ul{
+    display: flex;
+    flex-direction: column;
+}
